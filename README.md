@@ -1,8 +1,4 @@
-# Xposed-xiaolu
-## 分支说明
-- master分支：没有任何实际功能的Xposed模块模板
-- HuaweiAISpeakerHook分支：对华为AI音箱的安全研究
-
+# Xposed
 ## Xposed模块开发方法
  1. 在build.gradle中配置provided 'de.robv.android.xposed:api:82'以及provided 'de.robv.android.xposed:api:82:sources'
  2. 在assets文件夹中添加xposed_init，配置Xposed入口类名

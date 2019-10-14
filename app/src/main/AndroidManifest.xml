@@ -8,20 +8,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <receiver
-            android:name="com.wrlus.xposed.helper.BootReceiver"
-            android:enabled="true"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
-        <service android:name="com.wrlus.xposed.helper.LogHelperService" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.wrlus.xposed.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -30,9 +20,9 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="小路的Xposed模块" />
+            android:value="Xposed Module for wrlu's personal use." />
         <meta-data
             android:name="xposedminversion"
-            android:value="54" />
+            android:value="82" />
     </application>
 </manifest>

@@ -1,3 +1,2 @@
-com.wrlus.xposed.HookDanaleLogin
-com.wrlus.xposed.HookDanaleLog
-com.wrlus.xposed.HookHiLinkLog
+com.wrlus.xposed.HookHealthKey
+com.wrlus.xposed.HookHealthSn
